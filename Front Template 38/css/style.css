@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #212529;
+    padding: 13px 0;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color: white;
+}
+header .logo a{
+font-size: 20px;
+}
+header .right a{
+    margin-left: 10px;
+}
+#First{
+    padding: 6rem 0;
+    background-color: #F8F9FA;
+    border-bottom: 1px solid rgb(197, 195, 195);
+}
+#phone-header{
+    background-color:#212529;
+    padding: 1rem;
+}
+#phone-header .container1{
+    display: flex;
+}
+#phone-header .container1  .phone-left,.phone-right {
+    width: 50%;
+
+}
+#phone-header .container1  .phone-right{
+text-align: right;
+padding-right: 20px;
+ 
+}
+#phone-header a{
+    color: white;
+    font-size: 20px;
+}
+#phone-header i{
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+  
+    
+}
+ #Second{
+    padding: 3rem 0;
+ }
+ .light{
+     color: white;
+ }
+ #phone-header{
+     display: none;
+ }
+ @media (max-width:576px){
+     #header{
+         display: none;
+     }
+      #phone-header{
+          display: block;
+      }
+ }
